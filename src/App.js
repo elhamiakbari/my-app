@@ -1,21 +1,19 @@
 import React from "react";
 import Search from "./Search";
-import Weather from "./Weather";
+import Details from "./Details";
+import Footer from "./Footer";
 
 import "./App.css";
 
-export default function App() {
+function App() {
   return (
-    <div className="container">
-      <div className="App">
-        <Search />
-        <ul className="float-left">
-          <li className="city">New York </li>
-          <li className="info">Last updated:Tuesday 10:00 </li>
-          <li className="info">Cloudy</li>
-        </ul>
-        <Weather />
+    <div className="App">
+      <div className="app-wrap">
+        <Search city="Barcelona" />
+        <Details />
       </div>
+      <Footer />
     </div>
   );
 }
+export default App;
