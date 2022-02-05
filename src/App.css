@@ -1,49 +1,16 @@
-.App {
-  font-family: sans-serif;
-  text-align: center;
-
+body {
+  background-color: rgba(150, 170, 179, 0.5);
+  color: #1b3745;
+  font-family: "poppins", sans-serif;
+}
+.app-wrap {
+  max-width: 650px;
+  margin: 40px auto;
   padding: 20px;
-  border: 1px solid #c4d8f3;
-  border-radius: 15px;
-  box-sizing: border-box;
-  display: block;
+  border: 1px solid #1b3745;
+  border-radius: 10px;
+  box-shadow: 12px 12px 5px rgba(150, 170, 179, 0.4);
 }
-
-.city {
-  color: #f3d2d2;
-  font-size: 24px;
-  font-weight: 100;
-  line-height: 28px;
-  margin: 0;
-  margin-left: -100px;
-}
-
-.info {
-  margin: 0;
-  padding: 0;
-  color: rgb(247, 208, 208);
-  font-size: 16px;
-  font-weight: 100;
-  line-height: 19px;
-}
-.App ul {
-  list-style: none;
-}
-
-.info-cloudy {
-  color: #d19d9d;
-  margin-left: -150px;
-}
-
-.float-left {
-  margin-left: -300px;
-}
-
-.container {
-  max-width: 550px;
-
-  width: 100%;
-  padding: 20px 16px 24px;
-  margin-right: auto;
-  margin-left: auto;
+a {
+  text-decoration: none;
 }
