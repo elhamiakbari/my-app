@@ -1,0 +1,12 @@
+small {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+}
+.githubLink {
+  color: #d2e8f3;
+}
+.githubLink:hover {
+  text-decoration: underline;
+  color: #add7ec;
+}
